@@ -1,7 +1,20 @@
 :root {
-	--main-text-color: white;
+	--main-text-color: #F5F5F5;
+	/*--secondary-color: #4ABDAC;
+	--compliment-color: #FC4A1A;
+	--secondary-text-color: blue;*/
+
+	/*--secondary-color: #A9A9A9;
+	--compliment-color: #FF3B3F;
+	--secondary-text-color: blue;*/
+
+	/*--secondary-color: #438496;
+	--compliment-color: #CD5360;
+	--secondary-text-color: blue;*/
+
 	--secondary-color: #4ABDAC;
 	--compliment-color: #FC4A1A;
+	--secondary-text-color: blue;
 }
 
 body, html {
@@ -13,10 +26,13 @@ body, html {
 h1 {
 	color: var(--main-text-color);
 	font-family: 'Alegreya', serif;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+				 0px 8px 13px rgba(0, 0, 0, 0.1),
+				 0px 18px 14px rgba(0, 0, 0, 0.1);
     font-weight: 700;
     line-height: 48px;
-    font-size: 65px;
-    letter-spacing: 2.8px;
+    font-size: 75px;
+    letter-spacing: 4px;
 }
 
 h2 {
@@ -174,7 +190,7 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-	background-image: url("imgs/1.png");
+	background-image: url("imgs/piano.png");
 	background-color: var(--secondary-color);
 	height: 100%;
 }
