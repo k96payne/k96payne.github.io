@@ -192,6 +192,8 @@ hr {
     text-align: center;
 	background-image: url("imgs/piano.png");
 	background-color: var(--secondary-color);
+	/*background-size:100%;*/
+	width:100%;
 	height: 100%;
 }
 
