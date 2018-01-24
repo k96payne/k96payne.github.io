@@ -224,4 +224,6 @@ hr {
 	background-image: none;
 	position: relative;
 	background-color: var(--secondary-color);
+	padding-top: 10px;
+	padding-bottom: 60px;
 }
