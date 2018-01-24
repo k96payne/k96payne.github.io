@@ -195,12 +195,10 @@ hr {
 	/*background-size:100%;*/
 	/*width:100%;*/
 	height: 100%;
-}
 
-@media screen and (max-width: 992px) {
-    #parallax {
-        background-attachment: scroll;
-    }
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover
 }
 
 #about {
