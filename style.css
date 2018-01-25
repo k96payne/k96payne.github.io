@@ -152,8 +152,9 @@ hr {
 	float: right;
 	font-family: 'Roboto', sans-serif;
     font-size: 17px;
+    font-weight: normal;
     line-height: 23px;
-     margin: 0 0 23px 0;	
+    margin: 0 0 23px 0;	
 }
 
 /*.leftBorder {
