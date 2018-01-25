@@ -150,6 +150,14 @@ hr {
 
 .date {
 	text-align: right;
+	 margin: 15px 0 15px 0;
+}
+
+.leftBorder {
+	width: 100%;
+	border-left: solid white 2px;
+	padding-left: 8px;
+	margin-left: 2px;
 }
 
 #fixTitle {
