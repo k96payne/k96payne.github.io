@@ -149,8 +149,11 @@ hr {
 }
 
 .date {
-	text-align: right;
-	 margin: 15px 0 15px 0;
+	float: right;
+	font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+     margin: 0 0 23px 0;	
 }
 
 /*.leftBorder {
