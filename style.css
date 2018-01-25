@@ -158,7 +158,7 @@ hr {
 }
 
 .email {
-	color: var(--main-text-color);
+	color: inherit;
 }
 
 .email:hover {
