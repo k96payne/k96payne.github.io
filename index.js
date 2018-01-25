@@ -1,3 +1,7 @@
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ alert("TEST");
+}
+
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
