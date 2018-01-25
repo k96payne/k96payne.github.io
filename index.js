@@ -1,6 +1,6 @@
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-  document.querySelector( "#fixTitle" ).classListAdd( "removeBackImage" );
-}
+// if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+//   document.querySelector( "#fixTitle" ).classListAdd( "removeBackImage" );
+// }
 
 // Select all links with hashes
 $('a[href*="#"]')
