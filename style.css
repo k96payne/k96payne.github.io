@@ -158,11 +158,11 @@ hr {
 }
 
 .externalLink {
-	color: inherit;
+	color: #212529;
 }
 
 .externalLink:hover {
-	color: inherit;
+	color: #212529;
 
 	text-decoration: none;
 }
@@ -189,50 +189,7 @@ hr {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-@-webkit-keyframes hvr-icon-pulse-shrink {
-  to {
-    -webkit-transform: scale(0.8);
-    transform: scale(0.8);
-  }
-}
-@keyframes hvr-icon-pulse-shrink {
-  to {
-    -webkit-transform: scale(0.8);
-    transform: scale(0.8);
-  }
-}
-.hvr-icon-pulse-shrink {
-  /*display: inline-block;*/
-  /*vertical-align: middle;*/
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  /*position: relative;
-  padding-right: 2.2em;*/
-}
-.hvr-icon-pulse-shrink:before {
-  content: "\f015";
-  position: absolute;
-  right: 1em;
-  padding: 0 1px;
-  font-family: FontAwesome;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.hvr-icon-pulse-shrink:hover:before, .hvr-icon-pulse-shrink:focus:before, .hvr-icon-pulse-shrink:active:before {
-  -webkit-animation-name: hvr-icon-pulse-shrink;
-  animation-name: hvr-icon-pulse-shrink;
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate;
-}
+
 
 #fixTitle {
 	margin-left: 0px;
