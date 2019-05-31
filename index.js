@@ -1,3 +1,5 @@
+var navBackground =  '#1D2228';
+
 // Smooth Scroll ======/
 
 // Select all links with hashes
@@ -36,3 +38,11 @@ $('a[href*="#"]')
       }
     }
   });
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('#main-nav').css('padding-top', '10px').css("background-color", navBackground);
+  } else {
+    $('#main-nav').css('padding-top', '35px').css("background-color", 'transparent');
+  }
+});

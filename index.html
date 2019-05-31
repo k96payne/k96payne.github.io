@@ -2,13 +2,14 @@
 <html>
 <head>
 	<title>Kyle Payne</title>
-    <link href="https://fonts.googleapis.com/css?family=Alegreya:700|Roboto|Roboto+Condensed" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat:300,400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://use.fontawesome.com/38fa668650.js"></script>
 </head>
-<body>
-    <nav class="navbar navbar-default navbar-expand-md fixed-top">
+<body id="page-top">
+<!--     <nav class="navbar navbar-default navbar-expand-md fixed-top" id="main-navigation">
         <div class="container">
             <ul class="navbar-nav justify-content-start">
                 <li class="nav-item">
@@ -27,7 +28,7 @@
                         <a class="nav-link hvr-grow" href="#experience">Experience</a>
                     </li>
                         <a class="nav-link hvr-grow" href="#prof">Professional</a>
-                    </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link hvr-grow" href="#projects">Projects</a>
                     </li>
@@ -42,44 +43,72 @@
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
 
-	<div id="home">
-        <h1 id="fixTitle">Hi, I'm Kyle</h1>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="main-nav">
+    <div class="container">
+      <a id="brand-link" class="navbar-brand js-scroll-trigger hvr-grow" href="#page-top">Home</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+         <li class="nav-item">
+                        <a class="nav-link hvr-grow" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-grow" href="#education">Education</a>
+                    </li>
+                        <a class="nav-link hvr-grow" href="#prof">Professional</a>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link hvr-grow" href="#projects">Projects</a>
+                    </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <div id="home">
+      <!--   <div class="text-center">
+            <div style="width:25%">
+                    <img src="./imgs/professional.png" class="img-fluid" alt="Responsive image">
+            </div>
+        </div> -->
+        <h1 id="fixTitle">Kyle Payne</h1>
+        <h1 id="fixSubTitle">Software Engineer</h1>
+        <div id="fixButton">
+            <a role="button" class="btn" href="#about">Learn More</a>
+        </div><
     </div>
 
-    <div class="fillMain" id="one">
+    <div class="primary-section">
         <div class="container" id="about">
             <div class="row" style="padding-top: 40px">
-                <div class="col-lg-3 col-md-12 col-sm-12 title textCompliment">
-                    <h2>About Me  
-                        <span class="subIcon">
-                            <i class="fa fa-user textCompliment" aria-hidden="true"></i>
-                        </span>
-                    </h2>
-                    <hr class="hrCompliment" >
+                <div class="col-lg-12 col-md-12 col-sm-12 title textCompliment">
+                    <h2>About Me</h2>
+                    <hr>
                 </div>
-                 <div class="col-lg-9 col-12 col-sm-12 textCompliment">
+            <!--      <div class="col-lg-9 col-12 col-sm-12 textCompliment">
                     <h3>Kyle Payne</h3>
-                 </div>
+                 </div> -->
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12"></div>
-                <div class="col-lg-8 col-md-12 col-sm-12">
+                <div class="col-lg-12 col-md-12 col-sm-12" style="padding-top: 40px; padding-left: 100px; padding-right: 100px;">
                     <p>
                     Hi, I'm Kyle and I am a Senior at the University of Florida working on my Bachelor's Degree in Computer Engineering. I am fascinated by the way computers can change lives and the endless opportunity they bring. I aspire to play a role in the same innovative computer engineering community that creates this life change. I am currently seeking a Summer 2018 internship in Software Engineering.
                     </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12"></div>
-                <div class="col-lg-8 col-md-12 col-sm-12">
+                <div class="col-lg-12 col-md-12 col-sm-12" style="padding-top: 10px; padding-left: 100px; padding-right: 100px;">
                     <p>
-                    Aside from my time spent on academics, I have many other ways I like to spend my time. I love to play the piano and play basketball and video games with friends. I spend lots of time with my fianc&eacute Delaney and I program for fun. I am currently learning more about Android applications and web development. I also go to Church on the weekends and spend time with friends in a weekly small group.
+                    Aside from my time spent on academics, I have many other ways I like to spend my time. I love to play the piano and play basketball and video games with friends. I spend lots of time with my fiancé Delaney and I program for fun. I am currently learning more about Android applications and web development. I also go to Church on the weekends and spend time with friends in a weekly small group.
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-12"></div>
                 <div class="col-lg-9 col-md-12 col-sm-12">
                 <h3 class="textCompliment">My Email and Resume</h3>
@@ -87,7 +116,7 @@
                         <div class="col-lg-5 col-md-5 col-sm-12">
                             <h5>
                                 <a href="mailto:payne.k@paynekyle.com" target="_top" class="externalLink hvr-grow">
-                                    <i class="fa fa-envelope iconPad externalLink" aria-hidden="true" style="font-size: 1.5rem"></i>
+                                    <i class="fa fa-envelope " aria-hidden="true" style="font-size: 1.5rem"></i>
                                     payne.k@paynekyle.com
                                 </a>
                             </h5>
@@ -95,34 +124,72 @@
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <h5>
                                 <a href="./files/Kyle_Payne_Resume.pdf" target="_top" class="externalLink hvr-grow">
-                                    <i class="fa fa-file iconPad externalLink" aria-hidden="true" style="font-size: 1.5rem"></i>
+                                    <i class="fa fa-file" aria-hidden="true" style="font-size: 1.5rem"></i>
                                     Kyle Payne Resume
                                 </a>
                             </h5>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
-    <div class="fillSecondary">
-        <div class="container" id="experience">
+    <div class="secondary-section" style="padding-bottom: 40px">
+        <div class="container" id="education">
             <div class="row" style="padding-top: 40px">
-                <div class="col-lg-3 col-md-12 col-sm-12 title textMain">
-                    <h2>Experience  
-                        <span class="subIcon">
-                            <i class="fa fa-file-code-o textMain" aria-hidden="true"></i>
-                        </span>
-                    </h2>
+                <div class="col-lg-12 col-md-12 col-sm-12 title textMain">
+                    <h2>Education</h2>
                     <hr class="hrMain">
                 </div>
-                 <div class="col-lg-9 col-md-12 col-sm-12 textMain">
+               <!--   <div class="col-lg-9 col-md-12 col-sm-12 textMain">
                     <h3>My Education</h3>
-                 </div>
+                 </div> -->
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-12 col-sm-12"></div>
+            <div class="row" style="padding-bottom: 0px;">
+                <div class="col-lg-12 col-md-12 col-sm-12 title textMain">
+                    <span class="fa-stack fa-lg icon-stack">
+                        <i class="fa fa-circle fa-stack-2x" id="color-compliment"></i>
+                        <i class="fa fa-graduation-cap fa-stack-1x" id="color-main-text"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 0px">
+                <div class="col-lg-12 col-md-12 col-sm-12 title textMain" style="padding-top: 0px; padding-left: 100px; padding-right: 100px;">
+                    <h3 style="padding-top: 10px">B.S. with Honors in Computer Engineering</h3>
+                    <h5>University of Florida</h5>
+                    <h5>GPA: 3.72</h5>
+                    <h5>Eta Kappa Nu (HKN) Computer Engineering Honor Society</h5>
+                </div>
+            </div>
+        <!--     <div class="row" style="padding-top: 40px">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="card card-primary" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Software Engineering Intern</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text  content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Computer Science Teacher’s Assistant</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text  content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div> -->
+
+
+
+
+               <!--  <div class="col-lg-3 col-md-12 col-sm-12"></div>
                 <div class="col-lg-9 col-md-12 col-sm-12">
                     <h4>Bachelor's in Computer Engineering</h4>
                     <h5 class="date">May 2019</h5>
@@ -152,76 +219,100 @@
                             <h3 class="textMain">My Involvement</h3>
                             <h4>Website Development</h4>
                             <h5 class="date">March 2017 - Present</h5>
-                            <h5>&#8226 Experience with HTML, JavaScript, and Cascading Style Sheets in the front-end development of desktop and mobile websites</h5>
-                            <h5>&#8226 Competent with open source toolkit Bootstrap and DOM manipulation in the design of graphical interactions with the users for websites</h5>
+                            <h5>• Experience with HTML, JavaScript, and Cascading Style Sheets in the front-end development of desktop and mobile websites</h5>
+                            <h5>• Competent with open source toolkit Bootstrap and DOM manipulation in the design of graphical interactions with the users for websites</h5>
                             <h4>Eta Kappa Nu (HKN) IEEE Honor Society</h4>
                             <h5 class="date">August 2017 - Present</h5>
-                            <h5>&#8226 Inducted for top-ranking academic performance in the college of Electrical and Computer Engineering and involvement within society</h5>
-                            <h5>&#8226 Led outreach event to teach students at the Boys and Girls Club about electrical circuits by building an interactive night light circuit</h5>
+                            <h5>• Inducted for top-ranking academic performance in the college of Electrical and Computer Engineering and involvement within society</h5>
+                            <h5>• Led outreach event to teach students at the Boys and Girls Club about electrical circuits by building an interactive night light circuit</h5>
                             <h4>Game Maker Programming Language Game Development</h4>
                             <h5 class="date">August 2010 - August 2011</h5>
-                            <h5>&#8226 Programmed algorithms for character movement and object interaction in the creation of a platform shooter video game</h5>
-                            <h5>&#8226 Designed multiple sprites, platforms, sounds, and other video game objects for implementation in the video game</h5>
+                            <h5>• Programmed algorithms for character movement and object interaction in the creation of a platform shooter video game</h5>
+                            <h5>• Designed multiple sprites, platforms, sounds, and other video game objects for implementation in the video game</h5>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 
-    <div class="fillMain">
+    <div class="primary-section">
         <div class="container" id="prof">
             <div class="row" style="padding-top: 40px">
-                <div class="col-lg-3 col-md-12 col-sm-12 title textCompliment">
+                <div class="col-lg-12 col-md-12 col-sm-12 title textCompliment">
                     <h2>Professional
-                        <span class="subIcon">
+                        <!-- <span class="subIcon">
                             <i class="fa fa-black-tie textCompliment" aria-hidden="true"></i>
-                        </span>
+                        </span> -->
                     </h2>
-                    <hr class="hrCompliment">
+                    <hr>
                 </div>
-                 <div class="col-lg-9 col-md-12 col-sm-12 textCompliment">
+              <!--    <div class="col-lg-9 col-md-12 col-sm-12 textCompliment">
                     <h3>Some Positions I've Held</h3>
-                 </div>
+                 </div> -->
             </div>
-            <div class="row">
+            <div class="row" style="padding-top: 40px; padding-left: 100px; padding-right: 100px; padding-bottom: 40px">
+                <div class="col-lg-6 col-md-12 col-sm-12" style="padding-top: 40px">
+                    <div class="professional-div-container">
+                        <div class="professional-div-top">
+                            <i class="fa fa-external-link"></i>
+                            <h3 style="display: table-cell; vertical-align: middle;">Software Engineering Intern</h3>
+                        </div>
+                        <div class="professional-div-bottom">
+                            <h4>Galatea Associates</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12" style="padding-top: 40px">
+                    <div class="professional-div-container">
+                        <div class="professional-div-top">
+                            <i class="fa fa-external-link"></i>
+                            <h3 style="display: table-cell; vertical-align: middle;">Computer Science Teacher's Assistant</h3>
+                        </div>
+                        <div class="professional-div-bottom">
+                            <h4>University of Florida</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
                 <div class="col-lg-3 col-md-12 col-sm-12"></div>
                 <div class="col-lg-9 col-md-12 col-sm-12">
                     <div class="row">
-                        <div class = "col-lg-10 col-md-10 col-sm-12">
+                        <div class="col-lg-10 col-md-10 col-sm-12">
                             <h4>Programming with C Teacher's Assistant</h4>
                             <h5 class="date">January 2018 - Present</h5>
-                            <h5>&#8226 Ensured a correct standard of grading and feedback on assignments to accurately assess each student’s proficiency with programming in C</h5>
-                            <h5>&#8226 Responsible for helping students increase their knowledge of C and their overall grasp of computer programming</h5>
+                            <h5>• Ensured a correct standard of grading and feedback on assignments to accurately assess each student’s proficiency with programming in C</h5>
+                            <h5>• Responsible for helping students increase their knowledge of C and their overall grasp of computer programming</h5>
 
                             <h4>Live Audio Engineer</h4>
                             <h5 class="date">February 2016 - June 2017</h5>
-                            <h5>&#8226 Collaborated with musicians, producers, and others in order to engineer proper acoustics and flow of events during services</h5>
-                            <h5>&#8226 Solved audio feedback and signal processing issues during live events</h5>
+                            <h5>• Collaborated with musicians, producers, and others in order to engineer proper acoustics and flow of events during services</h5>
+                            <h5>• Solved audio feedback and signal processing issues during live events</h5>
 
                             <h4>Golf Concierge</h4>
                             <h5 class="date">June 2016 - September 2016</h5>
-                            <h5>&#8226 Serviced members and guests in order to provide a high-class experience</h5>
-                            <h5>&#8226 Organized golfing equipment on golf carts, course, and range on a daily basis</h5>
+                            <h5>• Serviced members and guests in order to provide a high-class experience</h5>
+                            <h5>• Organized golfing equipment on golf carts, course, and range on a daily basis</h5>
 
                             <h4>Maintenance Security and Staff</h4>
                             <h5 class="date">October 2013 - May 2016</h5>
-                            <h5>&#8226 Designed the setup of large weekly, monthly, and yearly events</h5>
-                            <h5>&#8226 Trained new staff on the organization of multiple events</h5>
+                            <h5>• Designed the setup of large weekly, monthly, and yearly events</h5>
+                            <h5>• Trained new staff on the organization of multiple events</h5>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
-    <div class="fillSecondary">
+    <div class="secondary-section">
         <div class="container" id="projects">
             <div class="row" style="padding-top: 40px">
-                <div class="col-lg-3 col-md-12 col-sm-12 title textMain">
+                <div class="col-lg-12 col-md-12 col-sm-12 title textMain">
                     <h2>Projects  
-                        <span class="subIcon">
+                    <!--     <span class="subIcon">
                             <i class="fa fa-file-code-o textMain" aria-hidden="true"></i>
-                        </span>
+                        </span> -->
                     </h2>
                     <hr class="hrMain">
                 </div>
@@ -233,37 +324,37 @@
                 <div class="col-lg-3 col-md-12 col-sm-12"></div>
                 <div class="col-lg-9 col-md-12 col-sm-12">
                     <div class="row">
-                        <div class = "col-lg-10 col-md-10 col-sm-12">
+                        <div class="col-lg-10 col-md-10 col-sm-12">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <h4>ADT List Implementations</h4>
-                                    <h5>&#8226 Simple Singly Linked List Class</h5>
-                                    <h5>&#8226 Pool-Using Singly Linked List Class</h5>
-                                    <h5>&#8226 Simple Dynamic Array-Based List Class</h5>
-                                    <h5>&#8226 Chained Dynamic Array-based List Class</h5>
-                                    <h5>&#8226 Circular Buffer List Class</h5>
-                                    <h5>&#8226 Valgrind Memory Test Source Code</h5>
-                                    <h5>&#8226 Test Cases With CATCH Framework</h5>
+                                    <h5>• Simple Singly Linked List Class</h5>
+                                    <h5>• Pool-Using Singly Linked List Class</h5>
+                                    <h5>• Simple Dynamic Array-Based List Class</h5>
+                                    <h5>• Chained Dynamic Array-based List Class</h5>
+                                    <h5>• Circular Buffer List Class</h5>
+                                    <h5>• Valgrind Memory Test Source Code</h5>
+                                    <h5>• Test Cases With CATCH Framework</h5>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <h4>ADT Map Implementations</h4>
-                                    <h5>&#8226 Binary Search Tree Leaf Insertion Class</h5>
-                                    <h5>&#8226 Binary Search Tree Root Insertion Class</h5>
-                                    <h5>&#8226 Randomized Binary Search Tree Class</h5>
-                                    <h5>&#8226 AVL Tree Class</h5>
-                                    <h5>&#8226 Valgrind Memory Test Source Code</h5>
-                                    <h5>&#8226 Test Cases with CATCH Framework</h5>
+                                    <h5>• Binary Search Tree Leaf Insertion Class</h5>
+                                    <h5>• Binary Search Tree Root Insertion Class</h5>
+                                    <h5>• Randomized Binary Search Tree Class</h5>
+                                    <h5>• AVL Tree Class</h5>
+                                    <h5>• Valgrind Memory Test Source Code</h5>
+                                    <h5>• Test Cases with CATCH Framework</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row" style="padding-top: 20px">
-                        <div class = "col-lg-10 col-md-10 col-sm-12">
+                        <div class="col-lg-10 col-md-10 col-sm-12">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <h4>
                                         <a href="https://github.com/k96payne/linked_list_implementations" target="_top" class="externalLink hvr-grow">
-                                            <i class="fa fa-download iconPad externalLink" aria-hidden="true" style="font-size: 1.5rem"></i>
+                                            <i class="fa fa-download" aria-hidden="true" style="font-size: 1.5rem"></i>
                                             List Github Repository
                                         </a>
                                     </h4>
@@ -271,7 +362,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <h4>
                                         <a href="https://github.com/k96payne/map_implementations" target="_top" class="externalLink hvr-grow">
-                                            <i class="fa fa-download iconPad externalLink" aria-hidden="true" style="font-size: 1.5rem"></i>
+                                            <i class="fa fa-download" aria-hidden="true" style="font-size: 1.5rem"></i>
                                             Map Github Repository
                                         </a>
                                     </h4>
@@ -280,13 +371,13 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class = "col-lg-10 col-md-10 col-sm-12">
+                        <div class="col-lg-10 col-md-10 col-sm-12">
                             <h3 class="textMain">Personal Projects</h3>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <h4>The RGB Color Game Web App</h4>
-                                    <h5>&#8226 Utilizes HTML and CSS for main structure and styling</h5>
-                                    <h5>&#8226 Implemented with vanilla Javascript for logic and DOM manipulation</h5>
+                                    <h5>• Utilizes HTML and CSS for main structure and styling</h5>
+                                    <h5>• Implemented with vanilla Javascript for logic and DOM manipulation</h5>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12"></div>
                             </div>
@@ -294,7 +385,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <h4>
                                         <a href="./colorGame/colorGame.html" target="_top" class="externalLink hvr-grow">
-                                            <i class="fa fa-external-link iconPad externalLink" aria-hidden="true" style="font-size: 1.5rem"></i>
+                                            <i class="fa fa-external-link" aria-hidden="true" style="font-size: 1.5rem"></i>
                                             Play Now
                                         </a>
                                     </h4>
@@ -309,7 +400,8 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
+
 </body>
 </html>
